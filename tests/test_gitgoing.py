@@ -37,7 +37,7 @@ def test_std_plus_one(x_norm):
     true_std = np.std(x_norm) + 1
     assert test_std == true_std
 
-# def test_cv_broken(x_norm):
+######## def test_cv_broken(x_norm):
 #      from gitgoing.gitgoing import std_plus_one, mean_plus_one, cv
 
 #      test_cv = cv(x_norm)
